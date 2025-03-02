@@ -19,8 +19,27 @@ items.push("mouse")
 const nums : number[] = []
 
 nums.push(1)
-console.log(nums); 
+// console.log(nums);
+
 // this will work fine but if i add a string or boolean it will throw an error
 // nums.push("1") //! Error
+
+//* Multi Dimensional Arrays(array of arrays)
+
+const carMakers2 : string[][] = [
+    ['ford', 'toyota', 'chevy'],
+    ['bmw', 'mercedes', 'audi'],
+]
+
+// console.log(carMakers2);
+
+const multiDimensional : number[][] =
+ [
+    [1, 2, 3],
+    [4, 5, 6],
+    [7, 8, 9]
+]
+
+// console.log(multiDimensional);
 
 
