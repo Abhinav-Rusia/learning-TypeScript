@@ -109,9 +109,14 @@ const double2 =(num : number):number => num * num
 
 
 //* void annotation
+// when we don't want to return anything from a function we use void annotation 
 
 function print(message : string){
     console.log(message);
 }
 
 print("Hello World")
+
+
+//* Never annotation
+// never annotation is used to specify that a function never returns a value. It is used to indicate that the function is not expected to return a value.
